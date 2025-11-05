@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Roboto:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class=" sub-header">
+      <nav>
+          <a href="index.html">
+              <img src="images/logo.png" alt="">
+          </a>
+          <div class="nav_links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="home.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <h1> About Us</h1>
+  </section>
+
+
+  <!-- ----about us contact---- -->
+
+  <section class="about_us">
+
+    <div class="row">
+        <div class="about_col">
+            <h1>We Are The World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, unde placeat perferendis magni fuga culpa. Numquam dolorum aperiam animi cumque hic impedit repudiandae, aliquam molestiae nihil error sunt dolore rem, quod corrupti, deserunt deleniti tempora! Cumque cupiditate adipisci minus illo expedita, earum delectus totam, error quia aperiam ipsum consequuntur voluptatem atque consequatur repellat, suscipit aliquid et omnis optio. Incidunt in doloribus dolores consectetur eligendi.</p>
+            <a href="" class="hero_btn red_btn"> EXPLORE NOW</a>
+        </div>
+        <div class="about_col">
+            <img src="images/about.png" alt="">
+
+        </div>
+    </div>
+  </section>
+
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse dicta eum perspiciatis. Voluptates, tempora nemo.<br>Maxime, voluptatem eum! Incidunt, quos sunt.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa fa-heart-o"></i> By Mr_Rathod_887</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- -------JavaSript For Toggel Menu-------- -->
+  <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu(){
+          navlinks.style.right = "0";
+      }
+      function hideMenu(){
+          navlinks.style.right = "-200px";
+      }
+  </script>
+</body>
+</html>

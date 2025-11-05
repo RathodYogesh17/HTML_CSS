@@ -1,0 +1,602 @@
+@media (max-width:1200px) {
+
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    header .row .get-btn {
+        right: 2%;
+    }
+
+    .home .main-page {
+        flex-wrap: wrap;
+    }
+
+    .home .content {
+        margin: 0 auto;
+    }
+
+    .home .main-img {
+        order: -1;
+        text-align: center;
+        width: 100%
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ponsers{
+        display: none;
+    }
+
+
+    .about .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .about .card {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .number .number-text {
+        width: 70%;
+    }
+
+    .number .metric-numbers {
+        flex-wrap: wrap;
+    }
+
+    .number .number-outline {
+        width: 33.33%;
+    }
+
+
+    .get-btn .icons i {
+        display: block;
+    }
+}
+
+@media (max-width:992px) {
+
+    .get-btn .icons {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .home .main-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .content {
+        overflow: hidden;
+    }
+
+    .future .down {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .future .row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .future .row .blue-card-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .future .row .blue-card-right {
+        width: 100%;
+    }
+
+    .future .down .future-card {
+        width: 50%;
+        border-right: none;
+
+    }
+
+    .services .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services .row .services-card {
+        width: 50%;
+    }
+
+    .staf .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .staf .container .number-text {
+        width: 100%;
+    }
+
+
+    .staf .row .staf-profile {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .trip .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trip .row .trip-card {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .books .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .books .row .books-left {
+        width: 100%;
+    }
+
+    .books .row .books-right {
+        width: 100%;
+    }
+
+
+    .footer .rows {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer .rows .footer-left {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .footer .rows .footer-right .navigation {
+        margin-left: 0px;
+    }
+
+    .footer .rows .footer-right {
+        width: 100%;
+
+    }
+
+    /* .pakeage .pakeage-cards .pakeage-card  */
+
+
+    .pakeage .pakeage-cards .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .pakeage .pakeage-cards .row .pakeage-card-left {
+        width: 100%;
+    }
+
+    .pakeage .pakeage-cards .row .pakeage-card-right {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width:768px) {
+
+    /* .container{
+        max-width: 576px;
+    } */
+    header .icons i {
+        display: inline-block;
+    }
+
+    .home {
+        width: 80%;
+    }
+
+    .home .container .main-page .content .call p {
+        line-height: 1.2;
+        font-size: 8px;
+    }
+
+    .home .container .main-page .content p {
+        font-size: 11px;
+        padding: 0px 40px;
+    }
+
+    .home .container .main-page .content h1 {
+        font-size: 23px;
+        padding-left: 40px;
+    }
+
+    .about .container .box .card p {
+        font-size: 12px;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .about .card {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .about .box {
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .about .box .card {
+        width: 100%;
+
+    }
+
+
+    .murquee {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contact .row {
+        flex-wrap: wrap;
+    }
+
+    .contact .left-side {
+        width: 100%;
+    }
+
+    .contact .right-side {
+        width: 100%;
+    }
+
+    .number .number-text {
+        width: 100%;
+    }
+
+    .number .metric-numbers {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .number .number-outline {
+        width: 41%;
+    }
+
+    .story-box {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-box .text {
+        width: 100%;
+    }
+
+    .story-box .images {
+        order: -1;
+        width: 100%;
+    }
+
+    .future .down .future-card {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-right: none;
+    }
+
+    .services .row .services-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .staf .row .staf-profile {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .trip .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .trip .row .trip-card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .faq {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .faq .row {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .row .faq-quetion {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .future .down .future-card {
+        width: 100%;
+        border-right: none;
+
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    .number .metric-numbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number .number-outline {
+        width: 100%;
+    }
+
+    .get-btn button {
+        display: none;
+    }
+
+}
+
+/*  ------------------------------------ max-widh : 375px ------------------------- */
+
+
+
+@media (max-width:375px) {
+
+    .home .contant {
+        width: 100%;
+    }
+
+    .home .content .make {
+        width: 150%;
+    }
+
+    .home .content p {
+        width: 150%;
+    }
+
+    .home .row .call {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .call .underline {
+        width: 80%;
+    }
+
+    .call p {
+        text-align: center;
+    }
+
+    .about .box {
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .about .box .card {
+        width: 100%;
+
+    }
+
+    .contact .row .left-side {
+        padding: 30px 0px;
+    }
+
+    .contact .row .left-side .pera {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .contact .row .right-side {
+        padding: 30px 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .number {
+        padding: 0px;
+    }
+
+    .number .container .number-text p {
+        font-size: 12px;
+    }
+
+
+
+    .story {
+        padding: 0px 0px;
+        margin: 0px;
+    }
+
+    .story .container {
+        padding: 0px;
+    }
+
+    .story .story-box .text {
+        width: 268px;
+        height: 268px;
+    }
+
+    .story .story-box .text p {
+        width: 100%;
+        padding: 0px 10px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .story .story-box .text .logo {
+        padding: 20px 10px;
+    }
+
+    .story .story-box .text .btn {
+        margin: 10px 20px;
+    }
+
+    .story-box .story-box .photo-right {
+        height: 300px;
+        width: 315px;
+    }
+
+    .story .story-box .images img {
+        width: 286px;
+        height: 300px;
+    }
+
+    .story .story-box {
+        margin: 0px;
+    }
+
+
+    .future .row .blue-card-left {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .future .row .blue-card-left h2 {
+        font-size: 22px;
+    }
+
+    .blue-card-left .secound-left {
+        margin: 10px 0px;
+    }
+
+    .blue-card-left .secound-left .underline {
+        display: none;
+    }
+
+    .future .row .blue-card-right h3 {
+        font-size: 18px;
+    }
+
+    .services .container {
+        width: 100%;
+        padding: 50px 0px 10px;
+    }
+
+    .row .services-card p {
+        font-size: 14px;
+    }
+
+    .row .services-card h3 {
+        font-size: 18px;
+    }
+
+    .row .services-card h3 {
+        font-size: 18px;
+    }
+
+    .row .services-card .underline p {
+        font-size: 14px;
+    }
+
+    .staf {
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .staf .container .number-text p {
+        font-size: 16px;
+    }
+
+    .faq .container .faq-box .faq-quetion {
+        width: 100%;
+        margin: 0px 20px;
+        padding: 20px 5px;
+    }
+
+    .faq .container .faq-box .row h2 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: start;
+
+    }
+
+    .books .container {
+        width: 100%;
+    }
+
+    .books .row .books-left h1 {
+        font-size: 22px;
+    }
+
+    .books .row .books-left p {
+        font-size: 18px;
+    }
+
+    .books .row .books-left .secound-left a {
+        display: none;
+    }
+
+    .books .row .books-left .col-3 .btn {
+        width: 200px;
+        padding: 20px 15px;
+        margin: 0 auto;
+    }
+
+    .footer .rows .footer-right .row .navigation ul li:nth-child(4) {
+        display: none;
+    }
+
+    .footer {}
+
+
+}

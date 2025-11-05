@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Card - RedStore </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="Products detail.html">About</a></li>
+                        <li><a href="card.html">Contact</a></li>
+                        <li><a href="Account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+        <!-- ----- Card item details----- -->
+
+        <div class="small-container card-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card-info">
+                            <img src="images/buy-1.jpg" alt="">
+                            <div>
+                                <p> Red Printed T-shirt</p><br>
+                                <small> Price : $35.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card-info">
+                            <img src="images/buy-2.jpg" alt="">
+                            <div>
+                                <p> Red Printed T-shirt</p><br>
+                                <small> Price : $35.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card-info">
+                            <img src="images/buy-3.jpg" alt="">
+                            <div>
+                                <p> Red Printed T-shirt</p><br>
+                                <small> Price : $45.00</small><br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$45.00</td>
+                </tr>
+            </table>
+            
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$115.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$150.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+            
+            <!-- ---footer--- -->
+            
+            <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download  Our App</h3>
+                    <p>Download app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                   <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the pleasure and benefits of sports  Accessible to the many. </p>
+                </div>
+                <div class="footer-col-3">
+                   <h3>useful Links</h3>
+                   <ul>
+                    <li>Coupons</li><br>
+                    <li>Blog Post</li><br>
+                    <li>Return Policy</li><br>
+                    <li>Join Affiliate</li><br>
+                   </ul>
+                </div>
+                <div class="footer-col-4">
+                   <h3>Follow Us</h3>
+                   <ul>
+                    <li>Facebook</li><br>
+                    <li>Twitter</li><br>
+                    <li>Instagram</li><br>
+                    <li>You tube</li><br>
+                   </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="name">Copyright@2023-MR_RATHOD_887</p>
+        </div>
+    </div>
+
+    <!-- ----- JS foe toggle menu----- -->
+      
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(  MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+
+        }
+
+    </script>
+
+  
+</body>
+</html>

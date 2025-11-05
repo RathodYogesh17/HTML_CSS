@@ -1,0 +1,1227 @@
+/* ==================common css============== */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding-left: 12px;
+    padding-right: 12px; */
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+:root {
+    --header-color: #222;
+    --white: #fff;
+    --black: #000;
+    --hover-color: #078D84;
+    --box-color: #3e3e70;
+    --head-color: #1c1c57;
+    --project-color: #255bf9;
+}
+
+/* =====================Regular Code======================= */
+
+/* ===================header===================== */
+
+.logo {
+    width: 100px;
+    align-self: center;
+}
+
+header .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.page {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: var(--header-color);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 24px;
+}
+
+.btn button {
+    width: 108px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--hover-color);
+    border: 0;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn button:hover {
+    background-color: var(--white);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--hover-color);
+}
+
+/* ===================Banner===================== */
+
+.banner {
+    margin: 0 auto;
+}
+
+.banner .container {
+    padding-top: 225px;
+}
+
+.small-heading {
+    font-size: 18px;
+    height: 27px;
+    margin: 0 0 24px;
+}
+
+.heading {
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+
+.last-line {
+    font-size: 18px;
+    padding: 86px 0;
+    width: 673px;
+}
+
+.button {
+    transition: 0.5s;
+}
+
+.button .hire-me {
+    width: 108px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--hover-color);
+    border: 0;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-right: 24px;
+}
+
+.button .hire-me:hover {
+    background-color: var(--white);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--hover-color);
+}
+
+.button .portfoilio {
+    width: 108px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--white);
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button .portfoilio:hover {
+    background-color: var(--hover-color);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0;
+}
+
+.image {
+    max-width: 680px;
+}
+
+/* .image img{
+    position: relative;
+    margin: 0 0;
+}
+
+.image .float img:nth-child(1){
+    position:absolute;
+    top: 23%;
+    left:62%;
+    z-index: 999;
+    width: 24px;
+    height: 20px;
+}
+
+.image .float img:nth-child(2){
+    position:absolute;
+    top: 21%;
+    left: 86%;
+    z-index: 999;
+    width: 24px;
+    height: 26px;
+} 
+
+.image .float img:nth-last-child(1){
+    position:absolute;
+    top: 81%;
+    left: 46%;
+    z-index: 999;
+    width: 24px;
+    height: 26px;
+} */
+
+/* ===================sponsor===================== */
+
+.sponsor {
+    height: 100%;
+    width: 100%;
+    background-color: var(--box-color);
+    height: 280px;
+}
+
+.main {
+    height: 280px;
+}
+
+.text {
+    max-width: 320px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 112px 0;
+    height: 48px;
+}
+
+.main .row .images:nth-child(1) {
+    width: 200px;
+    height: 56px;
+}
+
+.main .row .images:nth-child(2) {
+    width: 160px;
+    height: 48px;
+}
+
+.main .row .images {
+    display: flex;
+    align-items: center;
+    padding: 135px 0px;
+    justify-content: space-between;
+}
+
+.main .row .images img {
+    margin: 0px 40px;
+    line-height: 27px;
+}
+
+/* ===================services===================== */
+
+.offers .button {
+    display: flex;
+    justify-content: center;
+}
+
+.services .container {
+    height: 810px;
+}
+
+.services {
+    padding-top: 112px;
+    color: var(--box-color);
+    background-color: rgb(246, 248, 255);
+}
+
+.services .container {
+    padding: 0px 80px;
+}
+
+.left-side {
+    max-width: 680px;
+    height: 144px;
+    padding-right: 80px;
+}
+
+.small-head {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.big-heading {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    line-height: 48px;
+    color: var(--head-color);
+}
+
+.right-side {
+    max-width: 680px;
+    height: 144px;
+    color: var(--head-color);
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tag {
+    padding-top: 80px;
+    padding-bottom: 112px;
+}
+
+.cards .content-1 {
+    max-width: 336px;
+    margin-right: 20px;
+    height: 256px;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(16, 24, 40, .1), 0 2px 4px -2px rgba(16, 24, 40, .06);
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.card-head p {
+    width: 288px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    margin-bottom: 16px;
+}
+
+.card-text p {
+    width: 288px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cards .row {
+    flex-wrap: nowrap;
+}
+
+.offers .button {
+    margin: 0 auto;
+    transition: 0.5s;
+    padding-bottom: 112px;
+}
+
+.button .hire-me {
+    width: 108px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--hover-color);
+    border: 0;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-right: 24px;
+}
+
+.button .hire-me:hover {
+    background-color: var(--white);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--hover-color);
+}
+
+.button .portfoilio {
+    width: 108px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--white);
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button .portfoilio:hover {
+    background-color: var(--hover-color);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0;
+}
+
+.bottom-image img {
+    height: 130px;
+    width: 100%;
+}
+
+/* ===================about===================== */
+
+.about {
+    height: 932px;
+    padding-top: 112px;
+}
+
+.about-text .about-head p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.about-text {
+    margin-left: 40px;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about .row {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text .main-head p {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    color: var(--head-color);
+    line-height: 48px;
+    padding-bottom: 24px;
+}
+
+.about-para {
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--head-color);
+    padding-bottom: 24px;
+}
+
+.work-done {
+    padding: 68px 0px;
+}
+
+.card-1 {
+    padding: 16px;
+    width: 211px;
+    height: 107px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(16, 24, 40, .1), 0 2px 4px -2px rgba(16, 24, 40, .06);
+}
+
+.work-done .card-1 h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    height: 43.1875px;
+    letter-spacing: -0.816px;
+    line-height: 43px;
+}
+
+.work-done .card-1 p {
+    line-height: 24px;
+}
+
+.button .about-me {
+    width: 123px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--hover-color);
+    border: 0;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-right: 24px;
+}
+
+.button .about-me:hover {
+    background-color: var(--white);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--hover-color);
+}
+
+.last .bottom-image img {
+    margin-top: 1px;
+    margin-bottom: -5px;
+}
+
+/* ===================protect===================== */
+
+.protect {
+    /* height: 915px; */
+    padding: 112px 0px;
+    background-color: rgb(246, 248, 255);
+}
+
+.protect-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.protect-text .protect-head p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.protect-text .protect-main-head p {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.protect-text .protect-para p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 56px;
+}
+
+.protect-cards .protect-card {
+    width: 328px;
+    height: 256px;
+    padding: 0px 16px;
+    box-shadow: 0 2px 4px -2px rgba(16, 24, 40, .06), 0 4px 8px rgba(16, 24, 40, .1);
+    border-radius: 16px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.protect-card .logo img {
+    max-width: 160px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+.protect-card h1 {
+    width: 296px;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.protect-content .first {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.protect-content .second {
+    line-height: 24px;
+}
+
+.last .bottom-image img {
+    margin-top: 1px;
+}
+
+/* ===================template===================== */
+
+.template {
+    padding: 112px;
+}
+
+.template .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.template-head {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.template-head :nth-child(1) {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.template-head :nth-child(2) {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.template-head :nth-child(3) {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.template-1 {
+    box-shadow: 0 4px 8px rgba(16, 24, 40, .1), 0 2px 4px -2px rgba(16, 24, 40, .06);
+    border-radius: 32px;
+    max-width: 680px;
+    margin-bottom: 64px;
+    transition: all 0.5s;
+}
+
+.template-1:hover {
+    transform: translateY(-10px);
+}
+
+.template-1 .image {
+    width: 100%;
+}
+
+.template .col-6 {
+    padding: 0px 0px;
+}
+
+.template-1 .image img {
+    max-width: 680px;
+    height: 393px;
+    margin-bottom: 24px;
+}
+
+.template-content {
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.template-1 .template-content h1 {
+    color: var(--head-color);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.816px;
+    line-height: 34px;
+    margin-bottom: 8px;
+}
+
+.template-1 .template-content p {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.template-button {
+    width: 648px;
+    /* height: 29px; */
+    margin: 16px 0px 28px;
+    color: var(--head-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.template-content .template-button .btn-1 {
+    font-size: 14px;
+    font-weight: 700;
+    /* height: 29px; */
+    line-height: 14px;
+    padding: 4px 8px;
+    margin-right: 8px;
+}
+
+.project-view {
+    line-height: 16px;
+    color: var(--project-color);
+}
+
+.portfolio-button {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-button .portfolio {
+    width: 142px;
+    height: 58px;
+    padding: 16px 24px;
+    background-color: var(--hover-color);
+    border: 0;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-right: 24px;
+    /* text-align: center; */
+}
+
+.portfolio-button .portfolio:hover {
+    background-color: var(--white);
+    color: var(--hover-color);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--hover-color);
+}
+
+/* ===================reaction===================== */
+
+.reaction {
+
+    padding: 112px 0px;
+    height: 504px;
+    background-color: var(--project-color);
+    color: var(--white);
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+.left-arrow .img i {
+    text-align: center;
+    line-height: 56px;
+    font-size: 26px;
+    height: 56px;
+    width: 56px;
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    /* display: flex;
+    align-items: center; */
+}
+
+.reaction .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reaction-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 762px;
+    height: 216px;
+}
+
+.john-doe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    font-size: 24px;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0px;
+    /* height: 72px; */
+    line-height: 24px;
+    text-align: center;
+}
+
+.reaction .image img {
+    width: 3.5rem;
+    height: 3.5rem;
+    /* min-height: 3.5rem;
+    min-width: 3.5rem; */
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.john-text h3 {
+    font-size: 16px;
+    text-align: start;
+    font-weight: 600;
+}
+
+.john-text {
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+.webflow img {
+    line-height: 48px;
+    padding-left: 20px;
+    width: 121px;
+    height: 48px;
+}
+
+/* ===================faqs===================== */
+
+.faq {
+    width: 100%;
+    margin-top: 140px;
+    padding: 0px 80px;
+    text-align: center;
+}
+
+.faq .container h1 {
+    font-size: 20px;
+    border-color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    height: 48px;
+    letter-spacing: 0.816px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    /* text-transform: uppercase; */
+}
+
+.faq .container p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.faq .container .faq-box .row {
+    width: 55%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.faq .container .faq-box .faq-que i {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.faq .container .faq-box .faq-que h1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact-us {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 512px;
+    /* height: 211px; */
+    margin: 80px auto;
+    background-color: #f0f8f8;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.contact-us .portfolio-button {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 58px;
+    /* margin-top: 24px; */
+}
+
+.contact-us .portfolio-button .portfolio:hover {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 58px;
+    line-height: 26px;
+    background-color: var(--white);
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+}
+
+/* ===================Grow===================== */
+
+.grow {
+    background-color: var(--head-color);
+    color: var(--white);
+}
+
+.grow .row {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 112px 0px;
+}
+
+.grow .row h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.grow .row p {
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 50px;
+}
+
+.grow .row .button .hire-me {
+    color: var(--black);
+    background-color: var(--white);
+    transition: all 0.5s;
+}
+
+.grow .row .button .hire-me:hover {
+    color: var(--white);
+    background-color: var(--hover-color);
+}
+
+.grow .row .button .portfoilio {
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+.grow .row .button .portfoilio:hover {
+    color: var(--white);
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+
+.inspiration .container {
+    padding: 112px 0px;
+}
+
+
+
+.inspiration-head {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.inspiration-head h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.inspiration-head h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.816px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.inspiration-head p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.inspirations-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ins-card {
+    border-radius: 16px;
+    box-shadow: 0 2px 4px -2px rgba(16, 24, 40, .06), 0 4px 8px rgba(16, 24, 40, .1);
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
+.ins-card .row {
+    width: 704px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ins-card .card-img img {
+    width: 312px;
+    height: 312px;
+    margin-right: 20px;
+}
+
+.ins-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 312px;
+    height: 312px;
+}
+
+.ins-content .first {
+    display: flex;
+}
+
+.ins-content .first .ins-btn .design {
+    color: var(--head-color);
+    background-color: #f4f4f4;
+    margin-right: 16px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px;
+    margin-bottom: 16px;
+}
+
+.ins-content h1 {
+    letter-spacing: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.ins-content p:nth-child(3) {
+    margin-top: 24px;
+    color: var(--project-color);
+}
+
+.portfolio-last .last-image img {
+    margin-bottom: -4px;
+    height: 130px;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--head-color);
+    height: 528px;
+}
+
+.footer-content {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    border-bottom:  2px solid  var(--white);
+}
+
+.content-left .img {
+    margin-bottom: 24px;
+}
+
+.content-left h3 {
+    margin-bottom: 24px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content-left .img img {
+    width: 108px;
+}
+
+.content-left .e-mail input {
+    height: auto;
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: .625rem;
+    margin-bottom: 0;
+    padding: 1.17188rem .75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.content-left .e-mail {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.content-left .e-mail .button .hire-me {
+    padding: 22px 12px;
+    margin-left: 30px;
+    height: auto;
+    min-height: 2.75rem;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    transition: all 0.5s;
+}
+
+.content-left .e-mail .button .hire-me:hover {
+    color: white;
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+
+.content-left p {
+    font-size: 12px;
+}
+
+
+.content-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 128px;
+}
+
+
+.content-right .pages {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: flex-start;
+}
+
+.content-right .pages h1{
+    margin: 8px;
+    font-size: 22px;
+}
+
+.content-right .pages ul li {
+    padding-left: 8px;
+    color: var(--white);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: .875rem;
+    text-decoration: none;
+    transition: color .35s;
+}
+
+.content-right .pages ul li i{
+    font-size: 18px;
+    color: var(--white);
+    padding-right: 8px;
+}
+
+.footer .copy-right{
+    margin-top: 24px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-pera{
+    font-size: 14px;
+}
+
+.footer .copy-link{
+    display: flex;
+    margin-right: 128px;
+}
+
+.footer .copy-link p{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.footer p span{
+    text-decoration: underline;
+}

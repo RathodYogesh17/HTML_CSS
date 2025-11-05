@@ -1,0 +1,61 @@
+/*  fount-family */
+/* font-family: "Jacquard 12", system-ui; */
+/* font-family: "Briem Hand", cursive; */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Briem+Hand:wght@100..900&family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jacquard+12&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .main .head{
+
+    color:orangered;
+    font-family:"oggy";
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline dashed;
+    letter-spacing: 5px;
+} */
+
+/* .main .pera{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: left;
+    line-height: 1.2;
+    word-spacing: 1px;
+    text-indent: 150px;
+    color: rgb(102, 99, 99);
+}
+
+.main .pera span{
+    font-weight: bold;
+}
+
+
+.icon i{
+    font-size: 50px; 
+}
+
+.main{
+    border: 2px solid black;
+    width: 600px;
+    padding: 20px 30px;
+    margin: 55px auto;
+    background-color: aquamarine;
+}*/
+
+.container{
+    max-width: 1140px;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 0 12px;
+    background-color: aquamarine;
+}
+

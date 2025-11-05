@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+
+.container{
+    width: 596px;
+    margin: 0 auto;
+    border: 18px groove rgb(123, 119, 119);
+}
+
+.card .box{
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+.card .black{
+   background-color:rgb(123, 44, 44);
+}
+.card .white{
+    background-color: white;
+}
+
+.box p{
+    font-size: 45px;
+   text-align: center;
+   padding-bottom: 10px;
+   
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #08063f;
+    /* position --   Static | relative | Absolute | Fixed | Sticky   */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.dhambha{
+    width: 600px;
+    height: 600px;
+    background-color: #adc45d;
+    margin: 20px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.dadu{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: #51eac4;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pera p{
+    margin: 30px;
+    font-size: 22px;
+  }
+  
+  .pera{
+      margin-top: 200px;
+  }
+  

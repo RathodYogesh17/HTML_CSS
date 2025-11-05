@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(images/car.webp);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+/* .banner::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    background-color: rgba(119, 154, 222, 0.5);
+    z-index: -1;
+} */
+
+.banner::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(119, 154, 222, 0.5);
+    z-index: -1;
+}
+
+ /* h1{
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: 700;
+} */

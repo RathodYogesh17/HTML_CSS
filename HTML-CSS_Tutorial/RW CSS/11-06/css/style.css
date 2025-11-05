@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color: brown;
+    --secoundry-color: yellow;
+    --white: #fff;
+    --black: #000;
+    /* --head-font:  */
+}
+.rcgaming{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 300px;
+    width: 700px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.data p{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.data h1{
+    font-size: 80px;
+    color: var(--primary-color)
+}
+
+.data button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-color: var(--primary-color) ;
+    background-color:  var(--primary-color);
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.data button:hover{
+    background-color: transparent;
+    color:  var(--primary-color);
+}
+
+

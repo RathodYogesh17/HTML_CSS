@@ -1,0 +1,182 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    font-size: 2.4rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 1ream;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+}
+nav ul{
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+}
+    
+ nav ul li img{
+   width: 25px;
+ }
+ nav ul li:hover{
+color: gray;
+ }
+ nav i{
+     font-size: 3.5rem;
+ }
+ main{
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ /* hero section */
+ #hero{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .hero_content{
+
+ }
+ .hero_content h1{
+     font-size: 8rem;
+     line-height: 1.2;
+ }
+ .hero_content h4{
+    font-size: 2.5rem;
+   font-weight: 300;
+}
+
+ .hero_image{
+}
+.hero_image img{
+    border-radius: 5rem;
+     width: 600px;
+ }
+  /* Long Card */
+  .h_card{
+      display: flex;
+      margin: 2rem 1rem;
+      box-shadow: 0px 5px 4px rgba(223, 223, 223, 0.35);
+      align-items: center;
+      border: 0.5px solid #e2e2e2;
+      border-radius: 0.5rem;
+      overflow: hidden;
+  }
+
+  .h_card img{
+      width: 600px;
+  }
+  .card_content{
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+     
+  }
+  .status{
+      justify-content: space-between;
+      display: flex;
+      
+  }
+  .read_btn{
+      all: unset;
+      font-weight: 600;
+      border-bottom: 1px solid transparent;
+  }
+  .read_btn:hover{
+      border-bottom: 1px solid gray;
+  }
+  .v_card{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    box-shadow: 0px 5px 4px rgba(223, 223, 223, 0.35);
+    align-items: center;
+    border: 0.5px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.card_container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+}
+.card_wrapper{
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+.v_card img{
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+footer ul li img{
+    width: 25px;
+}
+footer ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+footer ul li{
+    font-size: 1.8rem;
+}
+/* post styles */
+
+.banner_image img{
+    width: 1000px;
+}
+.Post h1{
+    font-size: 3rem;
+}
+.Post hr{
+
+   margin: 30px 0;
+}
+
+ .Post h3{
+    font-size: 4rem;
+}
+
+.about_author{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

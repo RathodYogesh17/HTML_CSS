@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/image/index2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tunes Website</title>
+    
+<link rel="stylesheet" href="./My Tunes Website_files/style2.css"></head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"> My Tunes </div>
+            <ul>
+                <a href="http://127.0.0.1:5500/image/index2.html#hero">
+                    <li>Overview</li>
+                </a>
+                <a href="http://127.0.0.1:5500/image/index2.html#music">
+                    <li>Music</li>
+                </a>
+                <a href="http://127.0.0.1:5500/image/index2.html#video">
+                    <li>Video</li>
+                </a>
+                <a href="http://127.0.0.1:5500/image/index2.html#gift">
+                    <li>Gift Card</li>
+                </a>
+               
+            </ul>
+        </nav>
+    </header>
+    <section class="hero_section" id="hero">
+        <div class="container">
+            <h1>My Tunes</h1>
+            <h3>Your music, movies, and TV shows take center stage</h3>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolores ad voluptatibus, et odio dolor fugiat magnam, sint asperiores quos vel repellendus alias cumque aspernatur velit ipsam, reprehenderit commodi. Eum pariatur facilis dolore.</p>
+        </div>
+    </section>
+    <section class="music_section" id="music">
+        <div class="container">
+            <h2>
+                <img src="./My Tunes Website_files/icon4 .png" alt="">
+                Music
+            </h2>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni illo reiciendis voluptate molestiae voluptates praesentium? Quisquam consequuntur provident quam asperiores dolorem doloremque, in laborum. Debitis tenetur fugiat illum repellendus soluta, iusto aspernatur repellat inventore perspiciatis, maiores harum doloribus ab iste mollitia vel molestiae.</h4>
+            <button class="primary_btn">
+                Start Your Trail Now
+            </button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repudiandae perspiciatis placeat.</p>
+            <div class="ipad_iphone">
+                <img src="./My Tunes Website_files/iPad-iPhone-layout.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about_music container">
+<h3>The TV and movie collection  you always wished for.granted.</h3>
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas incidunt dolorum cumque assumenda nulla quas, iusto quidem fuga aspernatur fugiat aliquam, sunt totam enim amet quos temporibus odit accusantium. Quis neque nobis praesentium eligendi? Minima, dolore. Dolorum delectus odit, perspiciatis corrupti nobis rerum </h4><h4>
+    <button class="secundary_btn">Read More
+    </button>
+    <div class="mic-img">
+        <img src="./My Tunes Website_files/leptop 1.png" alt="">
+    </div>
+</h4></section>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
